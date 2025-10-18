@@ -67,9 +67,9 @@ echo ""
 read -p "Имя хоста у виртуальной машины: " VM_HOSTNAME
 validate_input "$VM_HOSTNAME"
 
-# Зона доступности
+# Выбор дистрибутива
 echo ""
-echo "Выберите зону доступности:"
+echo "Выберите дистрибутив:"
 echo "1 - Ubuntu 24.04 LTS"
 echo "2 - Debian 12"
 echo "3 - AlmaLinux 9"
